@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000036;
+    background-color: #00000e;
 }
 
 div#contagem{
@@ -39,7 +39,7 @@ input{
 
     color: #00bfff;
     text-shadow: 0 0 5px #00bfff, 0 0 10px #009acd, 0 0 15px #0077a6;
-    background-color: #000036;
+    background-color: #00000e;
 }
 
 input::-webkit-outer-spin-button,
