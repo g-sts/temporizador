@@ -20,7 +20,6 @@ body{
 div#contagem{
     display: flex;
     align-items: center;
-
     font-size: 60px;
     color: #00bfff
 }
@@ -28,15 +27,11 @@ div#contagem{
 input{
     width: 30vw;
     height: 30vh;
-
     min-width: 120px;
-
     font-size: 17vw;
     text-align: center;
-
     border: none;
     outline: none;
-
     color: #00bfff;
     text-shadow: 0 0 5px #00bfff, 0 0 10px #009acd, 0 0 15px #0077a6;
     background-color: #00000e;
@@ -57,24 +52,16 @@ div#btns{
 button{
     background: #000;
     color: #00bfff;
-
     border: 2px solid #00bfff;
-
     height: 80px;
     width: 80px;
-    
     border-radius: 50%;
     border: none;
-
     margin: 80px 20px;
-
     font-weight: bold;
-
     cursor: pointer;
-
     text-shadow: 0 0 5px #00bfff;
     box-shadow: 0 0 5px #00bfff, 0 0 15px #009acd, 0 0 25px #0077a6;
-
     transition: 0.3s;  
 }
 
@@ -87,4 +74,3 @@ button:hover {
 button:active{
     opacity: 0.5;
 }
-
