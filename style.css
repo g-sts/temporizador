@@ -1,9 +1,11 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Orbitron';
 }
 
 body{
@@ -12,5 +14,77 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #000036;
+}
+
+div#contagem{
+    display: flex;
+    align-items: center;
+
+    font-size: 60px;
+    color: #00bfff
+}
+
+input{
+    width: 30vw;
+    height: 30vh;
+
+    min-width: 120px;
+
+    font-size: 17vw;
+    text-align: center;
+
+    border: none;
+    outline: none;
+
+    color: #00bfff;
+    text-shadow: 0 0 5px #00bfff, 0 0 10px #009acd, 0 0 15px #0077a6;
+    background-color: #000036;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+div#btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button{
+    background: #000;
+    color: #00bfff;
+
+    border: 2px solid #00bfff;
+
+    height: 60px;
+    width: 60px;
+    
+    border-radius: 50%;
+    border: none;
+
+    margin: 0px 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    text-shadow: 0 0 5px #00bfff;
+    box-shadow: 0 0 5px #00bfff, 0 0 15px #009acd, 0 0 25px #0077a6;
+
+    transition: 0.3s;  
+}
+
+button:hover {
+  background: #00bfff;
+  color: #000;
+  box-shadow: 0 0 10px #00bfff, 0 0 20px #009acd, 0 0 40px #0077a6;
+}
+
+button:active{
+    opacity: 0.5;
 }
 
