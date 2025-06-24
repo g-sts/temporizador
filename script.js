@@ -52,3 +52,24 @@ function updateTime(){
     minutes.value = m.toString().padStart(2, '0')
     hours.value = h.toString().padStart(2, '0')
 }
+
+hours.addEventListener('input', () => limitarHoras(hours))
+minutes.addEventListener('input', () => limitarMinSec(minutes))
+seconds.addEventListener('input', () => limitarMinSec(seconds))
+
+function limitarHoras(input) {
+  if (input.value.length > 2) {
+    input.value = input.value.slice(0, 2)
+  }
+}
+
+function limitarMinSec(input){
+    if(input.value.length >2){
+        input.value = input.value.slice(0, 2)
+    }
+    let valor = parseInt(input.value)
+    if (!isNaN(valor) && valor > 59) {
+    input.value = '59'
+  }
+}
+
