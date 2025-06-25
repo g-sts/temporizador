@@ -20,7 +20,7 @@ body{
 div#contagem{
     display: flex;
     align-items: center;
-    font-size: 60px;
+    font-size: 10vw;
     color: #00bfff
 }
 
